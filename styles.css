@@ -1,0 +1,45 @@
+@import url(fonts/holberton_school-icon.css);
+
+:root {
+    --color-primary: #c271ff;
+}
+
+body {
+    font-family: "Source Sans Pro", Arial, Helvetica, sans-serif !important;
+}
+
+.homepage {
+    background-image: url(images/pic_1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.card {
+    width: 150px;
+    height: 237px;
+}
+
+
+.section-hero {
+    margin-top: 10rem;
+}
+
+.bg-purple {
+    background-color: var(--color-primary) !important;
+}
+
+.pro-header {
+    margin-top: 10rem;
+    font-size: 2rem;
+}
+
+strong {
+    color: var(--color-primary);
+}
+
+.homepage-title {
+    min-width: 43rem;
+    min-height: 9.5rem;
+    font-size: 7.5rem;
+}
